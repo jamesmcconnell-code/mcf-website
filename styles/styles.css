@@ -500,7 +500,7 @@ body.landing .landing-screens-scroller {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    overflow-y: hidden;
+    overflow: auto hidden;
     scrollbar-width: none;
     border-radius: 16px;
   }
