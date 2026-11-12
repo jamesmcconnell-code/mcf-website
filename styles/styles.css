@@ -323,6 +323,7 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
 /* ==========================================================================
    Scoops landing page — append to styles/styles.css
    (everything is scoped to body.landing, which scripts/landing.js adds)
