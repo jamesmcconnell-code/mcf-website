@@ -501,10 +501,9 @@ body.landing .landing-screens-scroller {
 /* Small phones: keep screenshots legible and let them scroll sideways */
 @media (width < 600px) {
   body.landing .landing-screens-scroller {
-    overflow-x: auto;
+    overflow: auto hidden; /* x: scroll sideways, y: hidden */
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    overflow-y: hidden;
     scrollbar-width: none;
     border-radius: 16px;
   }
